@@ -1,0 +1,11 @@
+.section {
+  border: 1px solid var(--default-border-color);
+  margin: 25px auto;
+  padding: 25px;
+  max-width: 650px;
+  border-radius: var(--default-border-radius);
+}
+.title {
+  font-size: var(--font-size-title);
+  text-align: center;
+}

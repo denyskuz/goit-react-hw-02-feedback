@@ -1,0 +1,7 @@
+.container {
+  list-style: none;
+  text-transform: capitalize;
+}
+.container li {
+  margin: 5px 0;
+}

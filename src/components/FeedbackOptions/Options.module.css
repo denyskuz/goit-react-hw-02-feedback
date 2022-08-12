@@ -1,0 +1,35 @@
+.options {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  background: black;
+  padding: 5px 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 0;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.good {
+  background: rgb(20, 174, 20);
+  box-shadow: 1px 1px 1px rgb(20, 174, 20);
+  border-color: rgb(20, 174, 20);
+}
+.neutral {
+  background: rgb(254, 162, 50);
+  box-shadow: 1px 1px 1px rgb(254, 162, 50);
+  border-color: rgb(254, 162, 50);
+}
+.bad {
+  background: rgb(177, 41, 41);
+  box-shadow: 1px 1px 1px rgb(177, 41, 41);
+  border-color: rgb(177, 41, 41);
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
