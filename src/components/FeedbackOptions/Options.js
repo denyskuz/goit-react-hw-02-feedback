@@ -12,6 +12,9 @@ export default class Option extends Component {
             onLeaveFeedback: func.isRequired
         })
     }
+     handleLeaveFeedback = (id) => {
+        this.props.onLeaveFeedback(id)   
+    }
     render() {
         return (
             <div className={classes.options}>
@@ -22,7 +25,7 @@ export default class Option extends Component {
                             className={`${classes.btn} ${classes[label]}`}
                             key={label}
                             id={label}
-                            onClick={this.props.onLeaveFeedback}
+                            onClick={()=> this.handleLeaveFeedback(label)}
                         >{label}
                         </button>
                     ))

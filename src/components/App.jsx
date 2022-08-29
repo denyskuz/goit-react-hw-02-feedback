@@ -12,10 +12,9 @@ export class App extends Component {
     neutral: 0,
     bad: 0
   }
-  handleLeaveFeedback = (e) => {
-    const target = e.target.id;
+  handleLeaveFeedback = (id) => {
     this.setState((state) => ({
-      [target]: state[target]+ 1 
+      [id]: state[id]+ 1 
     }));    
   }
   render() {
